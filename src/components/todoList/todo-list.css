@@ -1,0 +1,30 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.todo-list .MuiPaper-root {
+  background: #F2F2F7;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.todo-list .MuiPaper-root .MuiOutlinedInput-root,
+.todo-list .MuiPaper-root .MuiListItemButton-root {
+  background: white;
+}
+.todo-list .MuiPaper-root .MuiList-root {
+  overflow-y: auto;
+  max-height: 300px;
+}
+.todo-list > .MuiTypography-root {
+  color: black;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.todo-list .MuiTypography-h6 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+}
